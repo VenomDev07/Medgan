@@ -1,0 +1,41 @@
+@import "tailwindcss";  
+.login-con-1{
+    background: conic-gradient(
+        from 45deg at 50% 50%,
+        rgba(210, 180, 255, 0.8) 0%,
+        rgba(190, 175, 255, 0.8) 90deg,
+        rgba(170, 178, 255, 0.8) 180deg,
+        rgba(150, 167, 255, 0.8) 270deg,
+        rgba(130, 154, 255, 0.8) 360deg
+    );
+}
+
+.login-input{
+    /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+    padding-left: 10px;
+}
+
+.login-body{
+    background-color: rgb(240, 233, 233);
+    font-family: 'Roboto';
+}
+
+.login-forgot{
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.login-button{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+.login-info{
+    font-family: 'Lato';
+    font-weight: 700;
+}
+
+.lato{
+    font-family: 'Lato';
+}
+
