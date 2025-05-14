@@ -37,14 +37,14 @@ function Login() {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5 }} >
         <div className='container flex justify-center min-w-full items-center min-h-screen login-body'>
-            <div className='flex flex-row h-[550px] w-[330px] sm:w-[70%] sm:h-[600px] md:shadow-lg rounded-md '>
+            <div className='flex flex-row h-[550px] w-[330px] sm:w-[70%] sm:h-[600px] box-shadow rounded-md '>
                 <div className='md:flex hidden flex-col items-center justify-center md:w-[50%] h-full rounded-md login-con-1'>
                     <div className='w-[80%] h-[75%] rounded-sm pt-28 pl-10 cursor-default bg-white/15 '>
-                        <p className='text-5xl login-info text-white'>See clearer.</p>
-                        <p className='text-5xl login-info text-white'>Diagnose smarter.</p>
-                        <p className='text-5xl login-info text-white'>Enhance</p>
-                        <p className='text-5xl login-info text-white'>with <span className='text-black'>MEDGAN.</span></p>
-                        <p className='text-[14px] text-amber-50 mt-7'>Upload your medical scans and witness powerful AI enhancement for sharper, more accurate visuals—built for modern diagnostics.</p>
+                        <p className='lg:text-5xl md:text-4xl login-info text-white'>Diagnose</p>
+                        <p className='lg:text-5xl md:text-4xl login-info text-white'>Smarter</p>
+                        <p className='lg:text-5xl md:text-4xl login-info text-white'>Enhance</p>
+                        <p className='lg:text-5xl md:text-4xl login-info text-white'>with <span className='text-black font-extrabold'>MEDGAN</span></p>
+                        <p className='text-[14px] text-amber-50 mt-7'>Witness powerful AI enhancement for sharper, more accurate visuals—built for modern diagnostics.</p>
                     </div>
                 </div>
                 <form className='flex flex-col items-center justify-start p-2 h-full w-full rounded-md md:w-[50%]'>

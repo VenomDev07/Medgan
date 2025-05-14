@@ -44,12 +44,11 @@ function Signin() {
                     <div className='flex flex-row h-[550px] w-[330px] sm:w-[70%] sm:h-[600px] md:shadow-lg rounded-md '>
                         <div className='md:flex hidden flex-col items-center justify-center md:w-[50%] h-full rounded-md login-con-1'>
                             <div className='w-[80%] h-[75%] rounded-sm pt-28 pl-10 cursor-default bg-white/15 '>
-                                <p className='text-5xl login-info text-white'>See clearer.</p>
-                                <p className='text-5xl login-info text-white'>Diagnose smarter.</p>
-                                <p className='text-5xl login-info text-white'>Enhance</p>
-                                <p className='text-5xl login-info text-white'>with <span className='text-black'>MEDGAN.</span></p>
-        
-                                <p className='text-[14px] text-amber-50 mt-7'>Upload your medical scans and witness powerful AI enhancement for sharper, more accurate visuals—built for modern diagnostics</p>
+                                <p className='lg:text-5xl md:text-4xl login-info text-white'>Diagnose</p>
+                                <p className='lg:text-5xl md:text-4xl login-info text-white'>Smarter</p>
+                                <p className='lg:text-5xl md:text-4xl login-info text-white'>Enhance</p>
+                                <p className='lg:text-5xl md:text-4xl login-info text-white'>with <span className='text-black'>MEDGAN</span></p>
+                                <p className='text-[14px] text-amber-50 mt-7'>Witness powerful AI enhancement for sharper, more accurate visuals—built for modern diagnostics.</p>
                             </div>
                         </div>
                         <div className='flex flex-col items-center justify-start p-2 h-full w-full rounded-md md:w-[50%]'>
@@ -66,7 +65,8 @@ function Signin() {
                                 <h4 className='text-[16px] font-semibold'>Password</h4>
                                 <input type="password" onChange={(e) => setPassword(e.target.value)} value={password} className='h-10 login-input outline-1 focus:outline-red-200 rounded-md' />
                             </div>
-                            <div className='flex items-center justify-end w-[75%] mt-2 cursor-pointer'>
+                            <div className='flex items-center justify-between w-[75%] mt-2 cursor-pointer'>
+                                <a className='login-forgot text-[14px] font-semibold'onClick={() => navigate('/login')}>Already have account ?</a>
                                 <a className='login-forgot text-[14px] font-semibold'onClick={() => navigate('/login')}>Login</a>
                             </div>
                             <div className='flex items-center justify-end gap-3 rounded-md h-10 w-[75%] mt-5'>
